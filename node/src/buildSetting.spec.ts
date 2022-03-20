@@ -19,7 +19,7 @@ describe("buildsetting", () => {
       expect(result).toBe("\t");
     });
 
-    it("when tabs is false, then return shitespace character", () => {
+    it("when tabs is false, then return whitespace character", () => {
       getConfigMock.mockImplementation(() => {
         return {
           tabs: false,
