@@ -1,7 +1,6 @@
 import * as File from "./file";
 import path from "path";
 import fs from "fs";
-import { jest } from "@jest/globals";
 
 describe("file", () => {
   describe("getFileContents", () => {
