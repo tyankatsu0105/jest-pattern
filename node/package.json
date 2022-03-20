@@ -1,0 +1,21 @@
+{
+  "license": "MIT",
+  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com> (https://tyankatsu.com)",
+  "scripts": {
+    "exec": "swc-node",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage"
+  },
+  "devDependencies": {
+    "@swc/core": "1.2.158",
+    "@swc/jest": "0.2.20",
+    "@swc/register": "0.1.10",
+    "@types/jest": "27.4.1",
+    "jest": "27.5.1",
+    "typescript": "4.6.2"
+  },
+  "engines": {
+    "node": "14"
+  }
+}
